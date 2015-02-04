@@ -2,12 +2,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.friedenhagen.multimodule</groupId>
     <artifactId>parent</artifactId>
-    <version>1.12-SNAPSHOT</version>
+    <version>1.12</version>
     <packaging>pom</packaging>
     <name>parent</name>
     <scm>
-        <connection>scm:svn:file:///Software/nobackup/svnrepo/multimodule/trunk</connection>
-        <developerConnection>scm:svn:file:///Software/nobackup/svnrepo/multimodule/trunk</developerConnection>
+        <connection>scm:git:git@github.com:amusaku/multi-module-sample.git</connection>
+        <developerConnection>scm:git:git@github.com:amusaku/multi-module-sample.git</developerConnection>
     </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -16,12 +16,12 @@
         <snapshotRepository>
             <id>ui-snapshot</id>
             <uniqueVersion>true</uniqueVersion>
-            <url>http://localhost:8080/nexus/content/repositories/snapshots/</url>
+            <url>http://nexus.tecnositaf.it/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>ui-staging</id>
             <uniqueVersion>true</uniqueVersion>
-            <url>http://localhost:8080/nexus/content/repositories/staging/</url>
+            <url>http://nexus.tecnositaf.it/nexus/content/repositories/snapshots/</url>
         </repository>
     </distributionManagement>
     <build>
